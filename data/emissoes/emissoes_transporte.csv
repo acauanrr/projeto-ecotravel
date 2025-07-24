@@ -1,0 +1,8 @@
+modal_transporte,emissao_co2_kg_km,capacidade_passageiros,custo_medio_km
+aviao,0.255,150,0.35
+carro,0.171,4,0.25
+onibus,0.089,50,0.08
+trem,0.041,200,0.12
+moto,0.113,2,0.15
+bicicleta,0.000,1,0.00
+caminhada,0.000,1,0.00

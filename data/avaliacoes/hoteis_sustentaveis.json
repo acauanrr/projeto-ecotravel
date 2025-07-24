@@ -1,0 +1,78 @@
+{
+  "hotéis_sustentáveis": [
+    {
+      "nome": "Eco Resort Itacaré",
+      "cidade": "Itacaré",
+      "estado": "BA",
+      "certificacao": "LEED Gold",
+      "nota_sustentabilidade": 9.2,
+      "práticas": ["energia solar", "reciclagem", "água da chuva", "produtos locais"],
+      "preço_diária": 280,
+      "contato": "eco.itacare@email.com",
+      "website": "www.ecoresortitacare.com.br"
+    },
+    {
+      "nome": "Pousada Verde Rio",
+      "cidade": "Rio de Janeiro", 
+      "estado": "RJ",
+      "certificacao": "Green Key",
+      "nota_sustentabilidade": 8.5,
+      "práticas": ["energia renovável", "produtos locais", "compostagem"],
+      "preço_diária": 180,
+      "contato": "contato@pousadaverderiio.com.br",
+      "website": "www.pousadaverderio.com.br"
+    },
+    {
+      "nome": "Hotel Sustentável SP",
+      "cidade": "São Paulo",
+      "estado": "SP", 
+      "certificacao": "LEED Silver",
+      "nota_sustentabilidade": 8.0,
+      "práticas": ["energia solar", "telhado verde", "produtos biodegradáveis"],
+      "preço_diária": 220,
+      "contato": "reservas@hotelsustentavelsp.com",
+      "website": "www.hotelsustentavelsp.com"
+    },
+    {
+      "nome": "Pousada Ecológica Bonito",
+      "cidade": "Bonito",
+      "estado": "MS",
+      "certificacao": "Certificação Bonito",
+      "nota_sustentabilidade": 9.0,
+      "práticas": ["energia eólica", "biodigestor", "turismo responsável"],
+      "preço_diária": 160,
+      "contato": "eco@pousadabonito.com.br",
+      "website": "www.pousadaecologicabonito.com.br"
+    },
+    {
+      "nome": "Resort Sustentável Floripa",
+      "cidade": "Florianópolis",
+      "estado": "SC",
+      "certificacao": "Green Key",
+      "nota_sustentabilidade": 8.8,
+      "práticas": ["energia solar", "reciclagem integral", "horta orgânica"],
+      "preço_diária": 320,
+      "contato": "sustentavel@resortfloripa.com",
+      "website": "www.resortsustentavelfloripa.com.br"
+    },
+    {
+      "nome": "Pousada Amazônia Verde",
+      "cidade": "Manaus",
+      "estado": "AM",
+      "certificacao": "Rainforest Alliance",
+      "nota_sustentabilidade": 9.5,
+      "práticas": ["energia solar", "construção sustentável", "apoio comunidades"],
+      "preço_diária": 140,
+      "contato": "verde@pousadaamazonia.com.br",
+      "website": "www.pousadaamazoniaverde.com.br"
+    }
+  ],
+  "critérios_avaliação": {
+    "energia": "Uso de fontes renováveis (solar, eólica, biomassa)",
+    "água": "Reaproveitamento, tratamento e economia",
+    "resíduos": "Programa de reciclagem e compostagem",
+    "construção": "Materiais sustentáveis e design ecológico",
+    "comunidade": "Emprego local e apoio a projetos sociais",
+    "certificações": "LEED, Green Key, Rainforest Alliance, etc."
+  }
+}
