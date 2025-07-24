@@ -5,6 +5,7 @@ Sistema de agentes para planejamento de viagens sustentáveis com RL
 """
 
 import os
+import time
 from typing import Dict, Any
 import json
 from datetime import datetime
@@ -156,7 +157,8 @@ def main():
         print(f"Teste {i}/{len(test_queries)}")
         result = agent.process_query(query)
         print(f"\n💬 Resposta:{result['response']}")
-        input("\nPressione Enter para continuar...")
+        print("\n" + "-"*40)
+        time.sleep(1)  # Pausa de 1 segundo
     
     # Resumo final
     print("\n" + "="*60)

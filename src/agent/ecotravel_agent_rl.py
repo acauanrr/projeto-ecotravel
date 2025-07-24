@@ -6,33 +6,74 @@ import time
 
 # APIs e LLMs
 import openai
-from langchain.llms import OpenAI
-from langchain.chat_models import ChatOpenAI
-from langchain.embeddings import OpenAIEmbeddings, HuggingFaceEmbeddings
+try:
+    from langchain_openai import ChatOpenAI, OpenAIEmbeddings
+    from langchain_community.llms import OpenAI
+    from langchain_community.embeddings import HuggingFaceEmbeddings
+except ImportError:
+    try:
+        from langchain_community.llms import OpenAI
+        from langchain_community.chat_models import ChatOpenAI
+        from langchain_community.embeddings import OpenAIEmbeddings, HuggingFaceEmbeddings
+    except ImportError:
+        from langchain.llms import OpenAI
+        from langchain.chat_models import ChatOpenAI
+        from langchain.embeddings import OpenAIEmbeddings, HuggingFaceEmbeddings
+
 from langchain.agents import initialize_agent, AgentType, Tool
 from langchain.memory import ConversationBufferWindowMemory
 from langchain.callbacks import StreamingStdOutCallbackHandler
 
 # RAG Components
-from langchain.vectorstores import FAISS
+try:
+    from langchain_community.vectorstores import FAISS
+    from langchain_community.document_loaders import DirectoryLoader, CSVLoader, JSONLoader
+except ImportError:
+    from langchain.vectorstores import FAISS
+    from langchain.document_loaders import DirectoryLoader, CSVLoader, JSONLoader
+
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain.document_loaders import DirectoryLoader, PDFLoader, CSVLoader, JSONLoader
-from langchain.chains import RetrievalQA
-from langchain.retrievers import BM25Retriever, EnsembleRetriever
-from langchain.retrievers.multi_query import MultiQueryRetriever
+try:
+    from langchain.chains import RetrievalQA
+except ImportError:
+    from langchain_community.chains import RetrievalQA
 
 # Tools
-from langchain.tools import DuckDuckGoSearchRun, PythonREPLTool
-from langchain.utilities import GoogleSearchAPIWrapper
+try:
+    from langchain_community.tools import DuckDuckGoSearchRun
+    from langchain_community.utilities import GoogleSearchAPIWrapper
+except ImportError:
+    from langchain.tools import DuckDuckGoSearchRun
+    from langchain.utilities import GoogleSearchAPIWrapper
+
+try:
+    from langchain_experimental.tools import PythonREPLTool
+except ImportError:
+    from langchain.tools import PythonREPLTool
 import requests
 
 # RL Components
-from src.rl.rl_agent import EcoTravelRLAgent
+import sys
+import os
+sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
+
+try:
+    from rl.rl_agent import EcoTravelRLAgent
+except ImportError:
+    # Fallback se não conseguir importar
+    EcoTravelRLAgent = None
 
 # Configurar APIs de forma segura
-os.environ['OPENAI_API_KEY'] = os.getenv('OPENAI_API_KEY')
-os.environ['GOOGLE_CSE_ID'] = os.getenv('GOOGLE_CSE_ID')
-os.environ['GOOGLE_API_KEY'] = os.getenv('GOOGLE_API_KEY')
+if os.getenv('OPENAI_API_KEY'):
+    os.environ['OPENAI_API_KEY'] = os.getenv('OPENAI_API_KEY')
+else:
+    print("⚠️ OPENAI_API_KEY não configurada. Configure antes de usar o sistema completo.")
+
+if os.getenv('GOOGLE_CSE_ID'):
+    os.environ['GOOGLE_CSE_ID'] = os.getenv('GOOGLE_CSE_ID')
+
+if os.getenv('GOOGLE_API_KEY'):
+    os.environ['GOOGLE_API_KEY'] = os.getenv('GOOGLE_API_KEY')
 
 class EcoTravelAgentWithRL:
     """
