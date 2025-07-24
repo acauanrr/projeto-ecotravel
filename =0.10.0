@@ -1,0 +1,27 @@
+Collecting pdfplumber
+  Downloading pdfplumber-0.11.7-py3-none-any.whl.metadata (42 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 42.8/42.8 kB 381.4 kB/s eta 0:00:00
+Collecting pdfminer.six==20250506 (from pdfplumber)
+  Downloading pdfminer_six-20250506-py3-none-any.whl.metadata (4.2 kB)
+Requirement already satisfied: Pillow>=9.1 in ./.venv/lib/python3.12/site-packages (from pdfplumber) (11.0.0)
+Collecting pypdfium2>=4.18.0 (from pdfplumber)
+  Downloading pypdfium2-4.30.0-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (48 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 48.5/48.5 kB 1.9 MB/s eta 0:00:00
+Requirement already satisfied: charset-normalizer>=2.0.0 in ./.venv/lib/python3.12/site-packages (from pdfminer.six==20250506->pdfplumber) (3.4.2)
+Collecting cryptography>=36.0.0 (from pdfminer.six==20250506->pdfplumber)
+  Using cached cryptography-45.0.5-cp311-abi3-manylinux_2_34_x86_64.whl.metadata (5.7 kB)
+Collecting cffi>=1.14 (from cryptography>=36.0.0->pdfminer.six==20250506->pdfplumber)
+  Using cached cffi-1.17.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (1.5 kB)
+Collecting pycparser (from cffi>=1.14->cryptography>=36.0.0->pdfminer.six==20250506->pdfplumber)
+  Using cached pycparser-2.22-py3-none-any.whl.metadata (943 bytes)
+Downloading pdfplumber-0.11.7-py3-none-any.whl (60 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 60.0/60.0 kB 2.0 MB/s eta 0:00:00
+Downloading pdfminer_six-20250506-py3-none-any.whl (5.6 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.6/5.6 MB 581.9 kB/s eta 0:00:00
+Downloading pypdfium2-4.30.0-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (2.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.8/2.8 MB 473.2 kB/s eta 0:00:00
+Using cached cryptography-45.0.5-cp311-abi3-manylinux_2_34_x86_64.whl (4.5 MB)
+Using cached cffi-1.17.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (479 kB)
+Using cached pycparser-2.22-py3-none-any.whl (117 kB)
+Installing collected packages: pypdfium2, pycparser, cffi, cryptography, pdfminer.six, pdfplumber
+Successfully installed cffi-1.17.1 cryptography-45.0.5 pdfminer.six-20250506 pdfplumber-0.11.7 pycparser-2.22 pypdfium2-4.30.0

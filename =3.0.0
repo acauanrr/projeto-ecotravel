@@ -1,0 +1,24 @@
+Collecting pylint
+  Downloading pylint-3.3.7-py3-none-any.whl.metadata (12 kB)
+Collecting astroid<=3.4.0.dev0,>=3.3.8 (from pylint)
+  Downloading astroid-3.3.11-py3-none-any.whl.metadata (4.4 kB)
+Collecting dill>=0.3.6 (from pylint)
+  Downloading dill-0.4.0-py3-none-any.whl.metadata (10 kB)
+Collecting isort!=5.13,<7,>=4.2.5 (from pylint)
+  Using cached isort-6.0.1-py3-none-any.whl.metadata (11 kB)
+Collecting mccabe<0.8,>=0.6 (from pylint)
+  Downloading mccabe-0.7.0-py2.py3-none-any.whl.metadata (5.0 kB)
+Requirement already satisfied: platformdirs>=2.2 in ./.venv/lib/python3.12/site-packages (from pylint) (4.3.8)
+Collecting tomlkit>=0.10.1 (from pylint)
+  Using cached tomlkit-0.13.3-py3-none-any.whl.metadata (2.8 kB)
+Downloading pylint-3.3.7-py3-none-any.whl (522 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 522.6/522.6 kB 1.6 MB/s eta 0:00:00
+Downloading astroid-3.3.11-py3-none-any.whl (275 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 275.6/275.6 kB 9.9 MB/s eta 0:00:00
+Downloading dill-0.4.0-py3-none-any.whl (119 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 119.7/119.7 kB 8.0 MB/s eta 0:00:00
+Using cached isort-6.0.1-py3-none-any.whl (94 kB)
+Downloading mccabe-0.7.0-py2.py3-none-any.whl (7.3 kB)
+Using cached tomlkit-0.13.3-py3-none-any.whl (38 kB)
+Installing collected packages: tomlkit, mccabe, isort, dill, astroid, pylint
+Successfully installed astroid-3.3.11 dill-0.4.0 isort-6.0.1 mccabe-0.7.0 pylint-3.3.7 tomlkit-0.13.3
