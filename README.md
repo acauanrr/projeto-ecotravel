@@ -115,28 +115,32 @@ git clone <repo-url>
 cd ecotravel-agent
 
 # 2. Criar ambiente virtual
-python -m venv venv
-source venv/bin/activate  # Linux/Mac
+python -m venv .venv
+source .venv/bin/activate  # Linux/Mac
 # ou
-venv\Scripts\activate     # Windows
+.venv\Scripts\activate     # Windows
 
 # 3. Instalar dependências
+# Opção A: Instalação automática (recomendado)
+python install_dependencies.py
+
+# Opção B: Instalação manual
 pip install -r requirements.txt
 
-# 4. Configurar variáveis de ambiente
-cp .env.example .env
+# 4. Testar instalação
+python test_installation.py
+
+# 5. Configurar variáveis de ambiente
+cp env_example.txt .env
 # Edite .env com suas chaves de API
 
-export OPENAI_API_KEY="sua-chave-openai"
-export GOOGLE_API_KEY="sua-chave-google"
-
-# 5. Executar demonstração
+# 6. Executar demonstração
 python demo_ecotravel.py
 
-# 6. Ou executar agente completo
+# 7. Ou executar agente completo
 python src/agent/ecotravel_agent_rl.py
 
-# 7. Iniciar dashboard (opcional)
+# 8. Iniciar dashboard (opcional)
 streamlit run src/dashboard/metrics_dashboard.py
 ```
 
@@ -234,24 +238,26 @@ python src/tests/test_system.py --report
 
 ```txt
 # Core ML/AI
-openai==1.3.0
-langchain==0.0.350
-transformers==4.35.2
-sentence-transformers==2.2.2
+openai>=1.3.0
+langchain>=0.0.350
+transformers>=4.35.2
+sentence-transformers>=2.2.2
 
 # Reinforcement Learning
-gymnasium==0.29.1
-stable-baselines3==2.2.1
-torch==2.1.0
+gymnasium>=0.29.1
+stable-baselines3>=2.2.1
+torch>=2.2.0
 
 # Data & Visualization
-pandas==2.1.3
-plotly==5.18.0
-streamlit==1.28.2
+pandas>=2.0.0
+plotly>=5.18.0
+streamlit>=1.28.2
+matplotlib>=3.7.0
+seaborn>=0.12.0
 
 # APIs & Tools
-duckduckgo-search==3.9.6
-requests==2.31.0
+duckduckgo-search>=3.9.6
+requests>=2.31.0
 ```
 
 ## 🔧 Solução de Problemas
@@ -269,10 +275,28 @@ export OPENAI_API_KEY="sk-..."
 agent = EcoTravelRLAgent(use_advanced_embeddings=False)
 ```
 
+### Problema: Erro de instalação do PyTorch
+```bash
+# Solução: Usar script de instalação automática
+python install_dependencies.py
+
+# Ou instalar PyTorch manualmente
+pip install torch>=2.2.0 torchvision torchaudio
+```
+
 ### Problema: Dependências não instaladas
 ```bash
 # Solução: Instalar requisitos
 pip install -r requirements.txt --upgrade
+
+# Ou usar script de instalação
+python install_dependencies.py
+```
+
+### Problema: Verificar se tudo está funcionando
+```bash
+# Execute o script de teste
+python test_installation.py
 ```
 
 ## 👥 Contribuição
