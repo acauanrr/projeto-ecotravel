@@ -1,5 +1,21 @@
 # 📋 Análise e Revisão do Projeto EcoTravel Agent
 
+## 🎯 Visão Geral do Projeto
+**Assistente inteligente para planejamento de viagens sustentáveis**, integrando Modelos de Linguagem (LLMs) com agentes autônomos, Recuperação de Informação (RAG) e ferramentas externas, com otimização via Reinforcement Learning.
+
+### Problema Resolvido
+Sistema que planeje viagens sustentáveis com:
+- **Análise de Pegada de Carbono**: Calcula emissões por modal de transporte
+- **Orçamento Inteligente**: Otimiza custos com alternativas ecológicas  
+- **Recomendações Culturais**: Sugere experiências locais sustentáveis
+- **Alertas em Tempo Real**: Monitora clima e eventos locais
+
+### Justificativa da Arquitetura de Agentes
+- **Complexidade Multi-dimensional**: Requer orquestração de RAG (guias locais) e ferramentas externas (APIs, cálculos)
+- **Valor Prático**: Reduz emissões de CO2, economiza custos e melhora a experiência do usuário
+- **Métricas Claras**: Avaliação via redução de CO2, economia financeira e precisão das recomendações
+- **Viabilidade**: Usa ferramentas gratuitas (Ollama, LangChain, APIs públicas) e roda localmente ou no Google Colab
+
 ## ✅ Status de Conformidade
 
 ### Requisitos Identificados nos Arquivos:
@@ -29,6 +45,36 @@
    - Notebook completo para Colab
    - Scripts para execução local
    - Configuração flexível de APIs
+
+## 🏗️ Arquitetura do Sistema
+
+### Fluxograma Principal
+```plaintext
+┌─────────────────────┐
+│   Usuário           │
+└──────────┬──────────┘
+           │ Query
+┌──────────▼──────────┐
+│  Agente Orquestrador │  ← Reinforcement Learning (PPO)
+│  (ReAct Pattern)     │   otimiza seleção de ferramentas
+└──────────┬──────────┘
+           │ Decide: RAG ou Tools
+    ┌──────┴──────┬─────────┬──────────┐
+    │             │         │          │
+┌───▼────┐  ┌────▼────┐ ┌──▼────┐ ┌───▼────┐
+│  RAG    │  │ Python  │ │ APIs   │ │ Search │
+│ System  │  │ Interp  │ │Externa │ │  Web   │
+└─────────┘  └─────────┘ └───────┘ └────────┘
+```
+
+### Lógica do Agente
+- **Entrada**: Query do usuário (ex.: "Planejar viagem sustentável SP->RJ")
+- **RL Decision**: O agente RL usa PPO para determinar probabilidades:
+  - Se a query requer dados estáticos → RAG (ex.: guias de viagem)
+  - Se precisa de cálculos → Python (ex.: pegada de carbono)
+  - Se demanda dados em tempo real → API ou busca web (ex.: clima)
+- **Execução**: Chama a ferramenta apropriada e sintetiza a resposta
+- **Learning**: Ajusta política baseado no feedback e métricas de qualidade
 
 ## 🎯 Pontos Fortes do Projeto
 
