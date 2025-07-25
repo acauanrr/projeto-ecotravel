@@ -61,7 +61,7 @@ git add .
 git commit -m "🎉 Initial commit: EcoTravel Agent com RL"
 
 # Conectar com GitHub
-git remote add origin https://github.com/seu-usuario/ecotravel-agent.git
+git remote add origin https://github.com/seu-usuario/projeto-ecotravel.git
 git branch -M main
 git push -u origin main
 ```

@@ -60,7 +60,7 @@ GOOGLE_API_KEY=AIza-sua-chave-aqui
 
 ### Docker (Environment Variables)
 ```bash
-docker run -e OPENAI_API_KEY="sk-..." ecotravel-agent
+docker run -e OPENAI_API_KEY="sk-..." projeto-ecotravel-agent
 ```
 
 ## ⚙️ Configurações Específicas por Ambiente

@@ -135,7 +135,7 @@ python setup/test_installation.py
 ```bash
 # 1. Clonar e navegar
 git clone <repo-url>
-cd ecotravel-agent
+cd projeto-ecotravel
 
 # 2. Criar ambiente virtual
 python -m venv .venv

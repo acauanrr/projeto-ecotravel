@@ -18,8 +18,8 @@
 ### 1. Clone o Repositório
 
 ```bash
-git clone https://github.com/seu-usuario/ecotravel-agent.git
-cd ecotravel-agent
+git clone https://github.com/seu-usuario/projeto-ecotravel.git
+cd projeto-ecotravel
 ```
 
 ### 2. Crie um Ambiente Virtual
@@ -253,7 +253,7 @@ conda install faiss-cpu pytorch torchvision torchaudio -c pytorch
 ## Estrutura de Arquivos Após Instalação
 
 ```
-ecotravel-agent/
+projeto-ecotravel/
 ├── data/                    # Base de conhecimento
 │   ├── guias/              # Guias de viagem
 │   ├── emissoes/           # Dados de emissões

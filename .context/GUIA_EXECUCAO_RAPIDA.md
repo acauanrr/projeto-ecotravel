@@ -30,7 +30,7 @@
 ```bash
 # Clone e setup
 git clone <repo-url>
-cd ecotravel-agent
+cd projeto-ecotravel
 python -m venv venv
 source venv/bin/activate  # Linux/Mac
 pip install -r requirements.txt

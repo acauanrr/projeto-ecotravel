@@ -23,7 +23,7 @@
 ## 📁 Estrutura Atual Organizada
 
 ```
-trab_5-agents/
+projeto-ecotravel/
 ├── .context/                    # Documentação centralizada
 │   ├── 01_DESCRICAO_TRABALHO.md      # Descrição original do TP5
 │   ├── PROJETO_ANALISE_REVISAO.md    # Análise completa + arquitetura
