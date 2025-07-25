@@ -1,0 +1,11 @@
+{
+  "sistema": {
+    "queries_processadas": 3,
+    "tempo_medio": 1.2,
+    "ferramentas_ativas": 4
+  },
+  "rl": {
+    "episodios_treinados": 1000,
+    "precisao_selecao": 0.85
+  }
+}
