@@ -1,10 +1,12 @@
 # 🌍 EcoTravel Agent - Sistema Inteligente de Viagens Sustentáveis com RL
 
-**Trabalho Prático 4 - Agentes com LLMs**  
+**Trabalho Prático 5 - Agentes com LLMs**  
+**Disciplina:** PPGINF528 - Tópicos Especiais em Recuperação da Informação - NLP
+**Professores:** Prof. Dr. André Carvalho e Prof. Dr. Altigran da Silva
 **Universidade Federal do Amazonas (UFAM)**  
 **Disciplina:** Inteligência Artificial Avançada
 
-## 👥 Integrante (1 aluno - pós)
+## 👥 Aluno:
 
 - **Acauan Cardoso Ribeiro** - Matrícula: 3240232
 
