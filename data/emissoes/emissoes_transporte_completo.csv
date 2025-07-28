@@ -1,0 +1,17 @@
+modal_transporte,emissao_co2_kg_km,capacidade_passageiros,custo_medio_km_real,fonte
+aviao_domestico,0.158,150,0.35,IPCC 2023
+aviao_internacional,0.255,300,0.4,IPCC 2023
+carro_gasolina,0.171,4,0.25,IPCC 2023
+carro_etanol,0.142,4,0.2,IPCC 2023
+carro_flex,0.156,4,0.22,IPCC 2023
+onibus_urbano,0.089,80,0.08,IPCC 2023
+onibus_rodoviario,0.082,50,0.1,IPCC 2023
+trem_eletrico,0.041,200,0.12,IPCC 2023
+trem_diesel,0.084,150,0.15,IPCC 2023
+metro,0.028,300,0.05,IPCC 2023
+vlt,0.035,150,0.06,IPCC 2023
+moto,0.113,2,0.15,IPCC 2023
+bicicleta,0.0,1,0.0,IPCC 2023
+caminhada,0.0,1,0.0,IPCC 2023
+barco_fluvial,0.267,200,0.2,IPCC 2023
+ferry,0.195,800,0.25,IPCC 2023

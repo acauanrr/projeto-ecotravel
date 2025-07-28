@@ -1,0 +1,94 @@
+{
+  "hospedagem_sustentavel": [
+    {
+      "nome": "Pousada Maravilha",
+      "localizacao": "Fernando de Noronha, PE",
+      "tipo": "Pousada",
+      "certificacao": "Certified B Corporation",
+      "praticas_sustentaveis": [
+        "energia solar 100%",
+        "dessalinização própria",
+        "compostagem orgânica",
+        "produtos locais",
+        "construção bioclimática"
+      ],
+      "nota_sustentabilidade": 9.5,
+      "preco_diaria_baixa": 800,
+      "preco_diaria_alta": 1200,
+      "website": "www.pousadamaravilha.com.br",
+      "contato": "reservas@pousadamaravilha.com.br"
+    },
+    {
+      "nome": "Refúgio Ecológico Caiman",
+      "localizacao": "Pantanal, MS",
+      "tipo": "Lodge",
+      "certificacao": "Rainforest Alliance",
+      "praticas_sustentaveis": [
+        "energia solar",
+        "tratamento de esgoto biológico",
+        "pesquisa científica",
+        "empregos locais",
+        "conservação fauna"
+      ],
+      "nota_sustentabilidade": 9.2,
+      "preco_diaria_baixa": 600,
+      "preco_diaria_alta": 900,
+      "website": "www.caiman.com.br",
+      "contato": "reservas@caiman.com.br"
+    },
+    {
+      "nome": "Pousada Villa Serrano",
+      "localizacao": "Chapada Diamantina, BA",
+      "tipo": "Pousada",
+      "certificacao": "Green Key",
+      "praticas_sustentaveis": [
+        "energia solar",
+        "reaproveitamento água",
+        "produtos regionais",
+        "guias locais",
+        "arquitetura regional"
+      ],
+      "nota_sustentabilidade": 8.8,
+      "preco_diaria_baixa": 180,
+      "preco_diaria_alta": 280,
+      "website": "www.villaserrano.com.br",
+      "contato": "contato@villaserrano.com.br"
+    },
+    {
+      "nome": "Hotel Fasano Boa Vista",
+      "localizacao": "Porto Feliz, SP",
+      "tipo": "Resort",
+      "certificacao": "LEED Gold",
+      "praticas_sustentaveis": [
+        "energia renovável",
+        "gestão de resíduos zero",
+        "horta orgânica",
+        "arquitetura sustentável",
+        "programas ambientais"
+      ],
+      "nota_sustentabilidade": 9.0,
+      "preco_diaria_baixa": 1200,
+      "preco_diaria_alta": 2000,
+      "website": "www.fasano.com.br",
+      "contato": "boavista@fasano.com.br"
+    },
+    {
+      "nome": "Tivoli Ecoresort Praia do Forte",
+      "localizacao": "Praia do Forte, BA",
+      "tipo": "Resort",
+      "certificacao": "EarthCheck Gold",
+      "praticas_sustentaveis": [
+        "projeto tamar",
+        "energia solar",
+        "agua reaproveitada",
+        "produtos orgânicos",
+        "preservação restinga"
+      ],
+      "nota_sustentabilidade": 9.1,
+      "preco_diaria_baixa": 400,
+      "preco_diaria_alta": 700,
+      "website": "www.tivolihotels.com",
+      "contato": "praidoforte@tivolihotels.com"
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "destinos_sustentaveis": [
+    {
+      "nome": "Chapada Diamantina",
+      "estado": "Bahia",
+      "tipo": "Ecoturismo",
+      "certificacoes": [
+        "Geopark UNESCO"
+      ],
+      "atividades": [
+        "trilhas",
+        "cachoeiras",
+        "espeleoturismo",
+        "observação de aves"
+      ],
+      "impacto_ambiental": "baixo",
+      "apoio_comunidade": true,
+      "melhor_epoca": "abril a setembro",
+      "como_chegar": "voo Lençóis + transfer terrestre",
+      "hospedagem_sustentavel": [
+        "Pousada Villa Serrano",
+        "Hotel de Lençóis"
+      ],
+      "coordenadas": [
+        -12.5,
+        -41.4
+      ]
+    },
+    {
+      "nome": "Pantanal",
+      "estado": "Mato Grosso do Sul",
+      "tipo": "Turismo de Natureza",
+      "certificacoes": [
+        "Patrimônio Natural UNESCO",
+        "Reserva da Biosfera"
+      ],
+      "atividades": [
+        "safari fotográfico",
+        "pesca esportiva",
+        "observação de onças"
+      ],
+      "impacto_ambiental": "controlado",
+      "apoio_comunidade": true,
+      "melhor_epoca": "maio a setembro",
+      "como_chegar": "voo Campo Grande + transfer terrestre",
+      "hospedagem_sustentavel": [
+        "Pousada Aguapé",
+        "Refúgio Ecológico Caiman"
+      ],
+      "coordenadas": [
+        -19.5,
+        -56.6
+      ]
+    },
+    {
+      "nome": "Fernando de Noronha",
+      "estado": "Pernambuco",
+      "tipo": "Turismo Marinho Sustentável",
+      "certificacoes": [
+        "Patrimônio Natural UNESCO"
+      ],
+      "atividades": [
+        "mergulho",
+        "trilhas",
+        "observação de golfinhos"
+      ],
+      "impacto_ambiental": "altamente controlado",
+      "apoio_comunidade": true,
+      "melhor_epoca": "agosto a dezembro",
+      "como_chegar": "voo Recife/Natal",
+      "hospedagem_sustentavel": [
+        "Pousada Maravilha",
+        "Teju-Açu Eco Pousada"
+      ],
+      "coordenadas": [
+        -3.8,
+        -32.4
+      ]
+    },
+    {
+      "nome": "Vale do Capão",
+      "estado": "Bahia",
+      "tipo": "Turismo Rural/Alternativo",
+      "certificacoes": [
+        "Área de Proteção Ambiental"
+      ],
+      "atividades": [
+        "trilhas",
+        "yoga",
+        "permacultura",
+        "artesanato local"
+      ],
+      "impacto_ambiental": "baixo",
+      "apoio_comunidade": true,
+      "melhor_epoca": "março a novembro",
+      "como_chegar": "ônibus Salvador + transfer",
+      "hospedagem_sustentavel": [
+        "Pousada Capão",
+        "Casa dos Cristais"
+      ],
+      "coordenadas": [
+        -12.6,
+        -41.3
+      ]
+    },
+    {
+      "nome": "Bonito",
+      "estado": "Mato Grosso do Sul",
+      "tipo": "Ecoturismo",
+      "certificacoes": [
+        "Destino Indutivo MTur"
+      ],
+      "atividades": [
+        "flutuação",
+        "grutas",
+        "cachoeiras",
+        "mergulho em nascentes"
+      ],
+      "impacto_ambiental": "controlado",
+      "apoio_comunidade": true,
+      "melhor_epoca": "abril a setembro",
+      "como_chegar": "voo Campo Grande + transfer",
+      "hospedagem_sustentavel": [
+        "Pousada Olho d'Água",
+        "Wetiga Hotel"
+      ],
+      "coordenadas": [
+        -21.1,
+        -56.5
+      ]
+    }
+  ]
+}
