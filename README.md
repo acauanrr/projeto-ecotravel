@@ -4,11 +4,10 @@
 **Universidade Federal do Amazonas (UFAM)**  
 **Disciplina:** Inteligência Artificial Avançada
 
-## 👥 Integrantes do Grupo
+## 👥 Integrante (1 aluno - pós)
 
-- **Nome do Aluno 1** - Matrícula: XXXXXXXX
-- **Nome do Aluno 2** - Matrícula: XXXXXXXX  
-- **Nome do Aluno 3** - Matrícula: XXXXXXXX
+- **Acauan Cardoso Ribeiro** - Matrícula: 3240232
+
 
 ## 📋 Visão Geral do Projeto
 
