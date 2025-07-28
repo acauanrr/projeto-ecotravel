@@ -37,7 +37,7 @@ Desenvolver um agente inteligente capaz de:
 
 ```bash
 # 1. Clonar o repositório
-git clone <url-do-repositorio>
+git clone https://github.com/acauanrr/projeto-ecotravel.git
 cd projeto-ecotravel
 
 # 2. Criar ambiente virtual
