@@ -198,9 +198,9 @@ projeto-ecotravel/
 └── 📄 README.md                               # Este arquivo
 ```
 
-## 🎯 Como Avaliar o Projeto
+## 🎯 Avaliação do Projeto
 
-### 1. **Execução do Notebook** (40 pontos)
+### 1. **Execução do Notebook**
 
 Execute o notebook `EcoTravel_Agent_RL_Local_Completo.ipynb` célula por célula:
 
@@ -210,7 +210,7 @@ Execute o notebook `EcoTravel_Agent_RL_Local_Completo.ipynb` célula por célula
 - **Células 11-14**: Sistema integrado e demonstrações (testar queries)
 - **Células 15-18**: Análise de performance e relatórios
 
-### 2. **Funcionalidades Principais** (30 pontos)
+### 2. **Funcionalidades Principais**
 
 Teste as seguintes funcionalidades:
 
@@ -230,7 +230,7 @@ print(result)
 # Deve calcular e retornar emissões em kg de CO2
 ```
 
-### 3. **Reinforcement Learning** (20 pontos)
+### 3. **Reinforcement Learning**
 
 Observe na célula 10 do notebook:
 - Treinamento do agente PPO
@@ -320,7 +320,7 @@ Em caso de dúvidas na execução:
 1. **Primeiro**: Verifique se todas as dependências estão instaladas
 2. **Segundo**: Execute o teste de verificação acima
 3. **Terceiro**: Consulte a seção "Solução de Problemas"
-4. **Último recurso**: Contate os desenvolvedores
+4. **Último recurso**: Contate os desenvolvedor - whtas para Acauan (95) 98111-2506
 
 ---
 
