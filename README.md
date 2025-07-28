@@ -2,7 +2,6 @@
 
 **Trabalho Prático 5 - Agentes com LLMs**  
 **Disciplina: PPGINF528 - Tópicos Especiais em Recuperação da Informação - NLP**
-
 **Professores: Prof. Dr. André Carvalho e Prof. Dr. Altigran da Silva**
 **Universidade Federal do Amazonas (UFAM)**  
 
